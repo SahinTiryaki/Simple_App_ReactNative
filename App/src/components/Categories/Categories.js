@@ -10,7 +10,7 @@ const Categories = (props) => {
 <View style={styles.container}>
 
            <Image  style={styles.image} source={{uri:props.category.strCategoryThumb}} />
-            <View style = {{flex: 1, justifyContent:'center'}}>
+            <View style = {styles.inner_container}>
             <Text style = {styles.title} >{props.category.strCategory}</Text>
             </View>
 

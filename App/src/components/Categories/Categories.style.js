@@ -29,5 +29,9 @@ export default StyleSheet.create({
         marginRight:10,
         marginLeft: 10,
     
+    },
+    inner_container:{
+        flex: 1,
+        justifyContent:'center'
     }
 })

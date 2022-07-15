@@ -1,17 +1,17 @@
 import React from 'react';
-import {View, Image, Text, Linking, Button, Dimensions} from 'react-native';
-
+import {View, Image, Text, Button, Dimensions} from 'react-native';
+import styles from './Meal.style';
 const Meal = ({meal}) => {
-    
+        
     return (
-        <View style = {{margin:10}}>
-            <Image  style={{  marginBottom: 10,borderTopLeftRadius: 10,borderTopRightRadius: 10, height: Dimensions.get('window').height/3, resizeMode:'cover'}} source = {{uri: meal.strMealThumb}} />
+        <View style = {styles.container}>
+            <Image  style={styles.image } source = {{uri: meal.strMealThumb}} />
             
-            <Text style = {{ color: '#c88719', borderBottomWidth: 1,paddingBottom: 10, marginBottom:10, borderColor: 'black',fontWeight: 'bold', fontSize: 30}} >{meal.strMeal} </Text>
-            <Text style = {{marginBottom: 10,color:'black', textAlign: 'justify', fontSize: 15}} >
+            <Text style = {styles.title} >{meal.strMeal} </Text>
+           <Text style = {styles.description} >
                 {meal.strInstructions}
             </Text>
-            <Button  color={'orange'}  title = {'Watch on Youtube'} onPress = {()=>console.log('watched')} />
+            <Button  color={'#ba68c8'}  title = {'Watch on Youtube'} onPress = {()=>console.log('watched')} />
         </View>
 
     )
