@@ -1,4 +1,4 @@
-## Contents that I Learned  of React Native
+## Contents that I Learned
 1. HTTP requests with axios
 2.  Navigation
 3.  States
