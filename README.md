@@ -4,6 +4,7 @@
 3.  States
 4. Communication between components
 
+**used data:**  https://www.themealdb.com/api.php
 ## Screens
 <p float="left">
 <img src = 'https://user-images.githubusercontent.com/59391291/179307818-9cd2ea69-1b4a-42db-8e11-27b32a34f801.png'  height = '500px' widht = '50%'/>
