@@ -6,6 +6,6 @@
 
 ## Demo
 <div align="center">
-<img src="media/AppDemo.gif" width="80%"/> 
+<img src="Media/AppDemo.gif" width="80%"/> 
 </div>
 <br>
